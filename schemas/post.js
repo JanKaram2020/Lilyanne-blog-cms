@@ -109,16 +109,7 @@ export default {
   preview: {
     select: {
       title: 'title',
-      author: 'author.name',
-      publishedAt: "publishedAt",
-      slug: "slug",
       media: 'mainImage',
-    },
-    prepare(selection) {
-      const {author} = selection
-      return Object.assign({}, selection, {
-        subtitle: author && `by ${author}`,
-      })
-    },
+    }
   },
 }
