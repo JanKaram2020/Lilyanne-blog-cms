@@ -17,7 +17,7 @@ const localeBlockContent = {
     // Dynamically define one field per language
     fields: supportedLanguages.map(lang => ({
         title: lang.title,
-        name: lang.id,
+        name: lang.value,
         type: 'blockContent',
         fieldset: lang.isDefault ? null : 'translations'
     })),

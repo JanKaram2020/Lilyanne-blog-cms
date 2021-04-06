@@ -13,9 +13,7 @@ export default {
       name: "language",
       options: {
         list: [
-          { value: 'en', title: 'English' },
-          { value: 'ar', title: 'Arabic' },
-          { value: 'fr', title: 'French' }
+            ...supportedLanguages
         ]
       }
     },

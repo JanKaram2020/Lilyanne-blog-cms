@@ -17,7 +17,7 @@ const localeString = {
     // Dynamically define one field per language
     fields: supportedLanguages.map(lang => ({
         title: lang.title,
-        name: lang.id,
+        name: lang.value,
         type: 'string',
         fieldset: lang.isDefault ? null : 'translations'
     }))
