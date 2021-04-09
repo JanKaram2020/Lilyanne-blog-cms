@@ -20,7 +20,7 @@ export default {
             type: "array",
             title: "Keywords",
             description: "Add keywords that describes your blog.",
-            of: [{ type: "localeString" }],
+            of: [{ type: "string" }],
             options: {
                 layout: "tags",
             },
