@@ -41,11 +41,13 @@ export default {
       title: 'Author',
       type: 'reference',
       to: {type: 'author'},
+      validation: Rule => Rule.required(),
     },
     {
       name: "mainImage",
       type: "mainImage",
       title: "Main image",
+      validation: Rule => Rule.required(),
     },
     {
       name: "excerpt",
