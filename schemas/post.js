@@ -60,8 +60,8 @@ export default {
     {
       name: 'categories',
       title: 'Categories',
-      type: 'array',
-      of: [{type: 'reference', to: {type: 'category'}}],
+      type: 'reference',
+      to: {type: 'category'},
       validation: Rule => Rule.required(),
     },
     {
