@@ -16,6 +16,12 @@ export default {
             description: "Describe your blog for search engines and social media.",
         },
         {
+            name: "aboutPage",
+            type: "localeString",
+            title: "About page info",
+            description: "This will appear on about page.",
+        },
+        {
             name: "keywords",
             type: "array",
             title: "Keywords",
